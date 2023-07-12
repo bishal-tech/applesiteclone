@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+p{
+    font-weight: 100;
+}
+/* this is the main div  */
+#main {
+    position: relative;
+    overflow: hidden;
+}
+
+/* First page stye start here  */
+#page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #000; */
+}
+
+#page>nav {
+    /* background-color: aliceblue; */
+    position: absolute;
+    width: 70%;
+    height: 7vh;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#page>nav>h1 {
+    font-size: 25px;
+}
+
+#page>nav>button {
+    border: none;
+    padding: 6px 20px;
+    border-radius: 20px;
+}
+
+#page>video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page-bottom {
+    position: absolute;
+    bottom: 50px;
+    /* background-color: red; */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#page-bottom>h3 {
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+#page-bottom>p {
+    font-size: 20px;
+    color: #a8a8a8;
+}
+
+
+
+/* 2nd page stye start here  */
+
+#page1 {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(255, 66, 66);
+    text-align: center;
+    color: #fff;
+}
+
+#page1>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1>h2 {
+    position: absolute;
+    font-size: 30px;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 3rd page stye start here  */
+#page2 {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(255, 66, 66);
+    text-align: center;
+    color: #fff;
+}
+
+#page2>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2>h2 {
+    position: absolute;
+    font-size: 30px;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
